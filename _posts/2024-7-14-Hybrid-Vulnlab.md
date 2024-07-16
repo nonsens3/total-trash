@@ -11,7 +11,7 @@ certificados del AD.
 - **MAIL**
 	- Initial Access
 	- Shell como User
-	- Shell como Peter.Turner (ML)
+		- Shell como Peter.Turner (ML)
 	- Root
 - **DC01**
 	- Initial Access (Administrator)
@@ -88,7 +88,7 @@ admin&/tmp/shell&@hybrid.vl
 
 Se pone un puerto a la escucha y se obtiene una reverse shell como el usuario **www-data**.
 
-<h2>USER</h2>
+<h2>SHELL COMO USER</h2>
 -----
 
 Una vez obtenida la reverse shell, lo primero que se visualiza es un usuario peter.turner@hybrid.vl en el directorio **/home/**.
@@ -122,7 +122,7 @@ Activamos bit-suid desde nuestra máquina con el usuario **uwu** y obtenemos she
 
 ![](../assets/images/vl-hybrid/Pasted_image_20240713225700.png)
 
-<h3>PETER.TURNER MOVIMIENTO LATERAL</h3>
+<h3>SHELL COMO PETER.TURNER</h3>
 --------
 
 En la home del usuario **peter.turner** se puede visualizar la flag del usuario, pero además un archivo **paswords.kdbx** que se abre  justamente con la misma contraseña que encontramos anteriormente para la aplicación roundcube.
