@@ -8,12 +8,10 @@ Cadena de máquinas, dónde mediante un servicio nfs mal configurado se pueden e
 roundcube, se consigue posteriormente hacer movimiento horizontal con el fin de obtener acceso a la máquina DC01 mediante una explotación de
 certificados del AD.
 
-<ins>CONTENIDO:<ins>
-
 - **MAIL**
 	- Initial Access
-	- User
-	- Peter.Turner (ML)
+	- Shell como User
+	- Shell como Peter.Turner (ML)
 	- Root
 - **DC01**
 	- Initial Access (Administrator)
